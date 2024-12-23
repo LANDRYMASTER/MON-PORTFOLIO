@@ -2,6 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="Mon portfolio.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MON PORTFOLIO </title>
     <link rel="icon" type="image/x-icon" href="file/Mon icon.jpg">
@@ -10,74 +11,101 @@
 
     <!-- ceci est l'entete de ma page web -->
     <header>
-        <img src="file/Mon icon.jpg" alt="logo">
-        <nav>
-            <a href="#ABOUT">ABOUT</a>
-            <a href="#WORK">WORK</a>
-            <a href="#CONTACT">CONTACT</a>
-        </nav>
+        <div class="header" id="HOME">
+            <div class="head">
+                <a href="#HOME"><h2>LANDRYMASTER</h2></a>
+            </div>
+            <div class="head">
+                <nav class="navbar">
+                    <a href="#ABOUT">ABOUT</a>
+                    <a href="#WORK">WORK</a>
+                    <a href="#CONTACT">CONTACT</a>
+                </nav>
+            </div>
+        </div>
     </header>
-
-    <hr> <!-- ceci est une ligne transfersalle qui traverse toute la page -->
 
     <!-- ceci est le corps de la page -->
 
     <main>
-        <section>
-            <br>
-            <img src="file/IMG_8138.png" alt="Createur de contenu web" width="250" height="250">
-            <h1> LANDRYMASTER </h2>
-            <br><br>
-            <h3><span>&#128208;</span> Designer de solution web.</h3>
-            <h3><span>&#128203;</span> Curieux, attentionné, soucieux du travail.</h3>
-            <h3><span>&#128225;</span> Soulève des question pertinente pour defier les normes.</h3>
-            <br>
+        <div class="SousNavBar">
+            <section class="bureau">
+                <div class="profil"> 
+                    <img src="file/IMG_8138.png" alt="Createur de contenu web" width="250" height="250">
+                    <h1> LANDRYMASTER </h2>
+                </div>
+                <div class="info">
+                    <h3> <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#d4945c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-monitor-check"><path d="m9 10 2 2 4-4"/><rect width="20" height="14" x="2" y="3" rx="2"/><path d="M12 17v4"/><path d="M8 21h8"/></svg> <br>Designer de solution web.</h3>
+                    <h3> <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#d4945c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-wand"><path d="M15 4V2"/><path d="M15 16v-2"/><path d="M8 9h2"/><path d="M20 9h2"/><path d="M17.8 11.8 19 13"/><path d="M15 9h.01"/><path d="M17.8 6.2 19 5"/><path d="m3 21 9-9"/><path d="M12.2 6.2 11 5"/></svg> <br>Curieux, attentionné, soucieux du travail.</h3>
+                    <h3> <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#d4945c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg> <br> Soulève des question pertinente pour defier les normes.</h3>
+                </div>
+            </section>
+        </div>
+
+        <section class="section" id="ABOUT">
+            <div class="h3">
+                <h3 class="title">ABOUT</h3>
+            </div>
+            <div class="about">
+                <div class="apropos"> 
+                    <p> 
+                        <span id="BONJOUR">Bonjour</span>, je m'appelle Ange Landry Bile, et je suis étudiant en webmastering. Passionné par l'univers numérique et les technologies, en tant qu'amoureux de la culture africaine, je m'inspire profondément de son esthétique et de ses valeurs dans mes projets. Cette inspiration nourrit ma créativité et m'aide à apporter une touche unique et authentique à chacun de mes développements. Mon objectif est de toujours offrir des expériences numériques engageantes, modernes et accessibles. Je serais ravi de discuter de la façon dont nous pourrions travailler ensemble pour donner vie à vos projets.
+                    </p>
+                </div>
+                <div>
+                    <video src="file/video.mp4" autoplay controls loop></video>
+                </div>
+            </div>
+            
         </section>
-        <hr> <!-- ceci est une ligne transfersalle qui traverse toute la page -->
-        <section id="ABOUT">
-            <h3>ABOUT</h3>
-            <p> 
-                Bonjour, je m'appelle Ange Landry Bile, et je suis étudiant en webmastering. Passionné par l'univers numérique et les technologies, en tant qu'amoureux de la culture africaine, je m'inspire profondément de son esthétique et de ses valeurs dans mes projets. Cette inspiration nourrit ma créativité et m'aide à apporter une touche unique et authentique à chacun de mes développements. Mon objectif est de toujours offrir des expériences numériques engageantes, modernes et accessibles. Je serais ravi de discuter de la façon dont nous pourrions travailler ensemble pour donner vie à vos projets.
-            </p>
-            <video src="file/video.mp4" autoplay controls loop></video>
+  
+        <section class="section" id="WORK">
+            <div class="h3">
+                <h3 class="title">WORK</h3>
+            </div>
+            <div class="article">
+                <div>
+                    <img src="file/R.jpg" alt="Developpeur web">
+                </div>
+                <div class="motivation">
+                    <ul>
+                        <li> <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#cc845c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-wand"><path d="M15 4V2"/><path d="M15 16v-2"/><path d="M8 9h2"/><path d="M20 9h2"/><path d="M17.8 11.8 19 13"/><path d="M15 9h.01"/><path d="M17.8 6.2 19 5"/><path d="m3 21 9-9"/><path d="M12.2 6.2 11 5"/></svg>Je suis passionné du digital.</li>
+                        <li> <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#cc845c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-wand"><path d="M15 4V2"/><path d="M15 16v-2"/><path d="M8 9h2"/><path d="M20 9h2"/><path d="M17.8 11.8 19 13"/><path d="M15 9h.01"/><path d="M17.8 6.2 19 5"/><path d="m3 21 9-9"/><path d="M12.2 6.2 11 5"/></svg>J’aime le travail d’équipe.</li>
+                        <li> <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#cc845c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-wand"><path d="M15 4V2"/><path d="M15 16v-2"/><path d="M8 9h2"/><path d="M20 9h2"/><path d="M17.8 11.8 19 13"/><path d="M15 9h.01"/><path d="M17.8 6.2 19 5"/><path d="m3 21 9-9"/><path d="M12.2 6.2 11 5"/></svg>J’aime découvrir jusqu’où peut nous transportez les œuvres de l’esprit.</li>
+                        <li> <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#cc845c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-wand"><path d="M15 4V2"/><path d="M15 16v-2"/><path d="M8 9h2"/><path d="M20 9h2"/><path d="M17.8 11.8 19 13"/><path d="M15 9h.01"/><path d="M17.8 6.2 19 5"/><path d="m3 21 9-9"/><path d="M12.2 6.2 11 5"/></svg>J’aime le développement web.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="demoi">
+                <h4>Quand je ne suis pas dans mes lignes de code , je suis <strong> <a href="https://www.facebook.com/profile.php?id=100061089645654" target="_blank">bénévole U-report</a></strong> a temps plein. </h4>
+            </div>
+            <div class="boxitem">
+                <div class="item">
+                    <a href=""><img src="file/IMG_8073.png" alt="Communaute U-report" width="400" height="400"> U-CLUB</a>
+                </div>
+                <div class="item">
+                    <a href=""> <img src="file/IMG_8138 (2).png" alt="Communaute U-report" width="400" height="400"> U-KITS</a>
+                </div>
+                <div class="item">
+                    <a href=""> <img src="file/IMG_8138.png" alt="Communaute U-report" width="400" height="400"> JME2024</a>
+                </div>
+            </div>
         </section>
-        <hr> <!-- ceci est une ligne transfersalle qui traverse toute la page -->
-        <section id="WORK">
-            <h3>WORK</h3>
-            <img src="file/R.jpg" alt="Developpeur web" width="900" height="500">
-            <br>
-            <ul>
-                <li> Je suis passionné du digital.</li>
-                <li> J’aime le travail d’équipe.</li>
-                <li> J’aime découvrir jusqu’où peut nous transportez les œuvres de l’esprit.</li>
-                <li> J’aime le développement web.</li>
-            </ul>
-            <p>Quand je ne suis pas dans mes lignes de code , je suis <strong> <a href="https://www.facebook.com/profile.php?id=100061089645654" target="_blank">bénévole U-report</a></strong> a temps plein. </p>
-            <br>
-            <a href=""><img src="file/IMG_8073.png" alt="Communaute U-report" width="400" height="400"> U-CLUB</a>
-            <a href=""> <img src="file/IMG_8138 (2).png" alt="Communaute U-report" width="400" height="400"> U-KITS</a>
-            <a href=""> <img src="file/IMG_8138.png" alt="Communaute U-report" width="400" height="400"> JME2024</a>
-            <br>
-            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fpeople%2FAnge-Landry-Bile%2F100061089645654%2F&tabs=timeline&width=600&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="600" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-            <br>
-        </section>
-        <hr> <!-- ceci est une ligne transfersalle qui traverse toute la page -->
-        <section id="CONTACT">
-            <h3>CONTACT</h3>
+
+        <section class="sectionC" id="CONTACT">
+            <div class="h3">
+                <h3 class="title">CONTACT</h3>
+            </div>
             <form action="">
-                <fieldset>
-                    <legend>FORMULAIRE DE CONTACT</legend>
+                <div class="form">
                     <label for="ChampNom">Nom Complet :</label>
                     <input type="text" name="" id="ChampNom">
-                    <br><br>
                     <label for="ChampEmail">Email :</label>
                     <input type="email" name="" id="ChampEmail">
-                    <br><br>
                     <input type="radio" name="Typedepersonne" id="Champparticulier">
-                    <label for="Champparticulier">Je suit un particulier</label> <br>
+                    <label for="Champparticulier">Je suit un particulier</label>
                     <input type="radio" name="Typedepersonne" id="Champentreprise">
                     <label for="Champentreprise">Je suit une entreprise</label>
-                    <br><br>
                     <label for="ChampMotif">Objet du message :</label>
                     <select name="" id="ChampMotif">
                         <option value="" hidden="hidden">OBJET</option>
@@ -86,24 +114,19 @@
                         <option value="">Proposition de collaboration</option>
                         <option value="" disabled="disabled">Demande de partenariat</option>
                     </select>
-                    <br><br>
                     <label for="zonedetexte">Message :</label>
-                    <textarea name="" id="zonedetexte"></textarea><br><br>
+                    <textarea name="" id="zonedetexte" cols="60" rows="10"></textarea>
                     <input type="submit" value="Prendre contact">
-
-                </fieldset>
+                </div>
             </form>
         </section>
+
     </main>
 
-    <hr> <!-- ceci est une ligne transfersalle qui traverse toute la page -->
-
-    <!-- ceci est le pied de la page -->
-
     <footer>
-        <p> MON PORTFOLIO   </p>
-        <a href="mailto:m.angebile146@gmail.com">&#128386;</a>
-        <a href="https://www.facebook.com/profile.php?id=100061089645654">&#129507;</a>
+        <p> MON PORTFOLIO </p>
+        <a href="mailto:m.angebile146@gmail.com"><svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" fill="white" stroke="red" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mails"><rect width="16" height="13" x="6" y="4" rx="2"/><path d="m22 7-7.1 3.78c-.57.3-1.23.3-1.8 0L6 7"/><path d="M2 8v11c0 1.1.9 2 2 2h14"/></svg></a>
+        <a href="https://www.facebook.com/profile.php?id=100061089645654"><svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" fill="white" stroke="#5794b2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
         <p>©Decembre2024 LANDRYMASTER. Tous droits réservés.</p>
     </footer>
     
