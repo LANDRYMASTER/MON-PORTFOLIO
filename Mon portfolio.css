@@ -54,11 +54,6 @@ header {
     transition: 0.5s;
     padding: 9px ;
 }
-
-main {
-    z-index: 1;
-}
-
 .bureau {
     text-align: center;
     color: rgb(0, 0, 0);
@@ -149,18 +144,23 @@ main {
     font-size: 50px;
 }
 
+.about video {
+    width: 100%;
+    border-radius: 100px;
+}
+
 /* SECTION WORK */
 
 .article {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
     min-height: 80vh;
 }
 
 .article > div > img {
     width: 100%;
+    border-radius: 250px 30px;
 }
 
 .motivation li {
